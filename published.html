@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="js">
+<head>
+    <meta charset="utf-8">
+    <title>Joshua Stone- About me</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/headhesive.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" rel="stylesheet" type='text/css'>
+</head>
+<body>
+    <header class="banner">
+        <nav>
+            <h1>Joshua Stone</h1>
+            <ul class="nav">
+                <li class="nav__item"><a href="index.html">Home</li>
+                <li class="nav__item"><a href="resume.html">Resume</a></li>
+                <li class="nav__item_used">Published Work</a></li>
+                <li class="nav__item"><a href="http://www.blogofspeed.com" target="_blank">Blog of Speed</a></li>
+                <!-- <li class="nav__item"><a class="nav__item--btn  btn" href="http://markgoodyear.com/blog">View Article &rarr;</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+      <h2> Please click on the article title to view the complete PDF of that article. </h2>
+
+  <a href="pdf/lamborghini.pdf"><img src="images/lambocover.jpg" border="0" alt="Link to Lamborghini Article" class="prettytop"></a>
+  <br>
+  <a href="pdf/tesla.pdf"><img src="images/teslacover.jpg" border="0" alt="Link to Tesla Article" class="prettytop"></a></object>
+  <br>
+  <a href="pdf/mphclub.pdf"><img src="images/mphclubcover.jpg" border="0" alt="Link to MPH Club Article" class="prettytop"></a></object>
+  <br>
+
+
+
+    </main>
+
+    <footer>
+
+            <p>Copyright (c) 2014 Joshua Stone</a><span class="top"><a href="#top">top</a></span></p>
+    </footer>
+
+    <script type="text/javascript" src="java/headhesive.js"></script>
+    <script>
+
+        // Set options
+        var options = {
+            offset: '#showHere',
+            classes: {
+                clone:   'banner--clone',
+                stick:   'banner--stick',
+                unstick: 'banner--unstick'
+            }
+        };
+
+        // Initialise with options
+        var banner = new Headhesive('.banner', options);
+
+        // Headhesive destroy
+        // banner.destroy();
+    </script>
+
+</body>
+</html>

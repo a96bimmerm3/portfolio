@@ -1,0 +1,200 @@
+/* Main */
+* {
+    -webkit-box-sizing: border-box;
+       -mox-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html  {
+    line-height: 1.6;
+    font-family:  'Open Sans', 'Helvetica', sans-serif;
+}
+
+
+h2 {
+  text-align: center;
+  clear: both;
+  font-family: 'Open Sans';
+}
+
+address {
+  text-align: center;
+  clear: both;
+  font-family: 'Open Sans';
+  color: black;
+}
+/* Links */
+a {
+    text-decoration: none;
+    color: #d3d3d3;
+    -webkit-transition: all 300ms ease-in-out;
+       -moz-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out;
+}
+    a:hover {
+        color: #000000;
+    }
+
+.lead {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+/* Button */
+
+.prettytop {
+max-width: 100%;
+height: auto;
+}
+
+#smallnav {
+  width: 100%;
+}
+
+#smallnav ul {
+  text-align: justify;
+  line-height: 0;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+#smallnav ul:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+#smallnav ul li {
+  display: inline-block;
+  line-height: 100%;
+  font-size: 20px;
+}
+/**
+ * Banner
+ */
+
+/* Main elem */
+header {
+    background: #d3d3d3;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    height: 70px;
+    width: 100%;
+    color: #fff;
+}
+    header a {
+        color: #fff;
+    }
+    header a:hover {
+        color: #000000;
+    }
+
+#education {
+  border: 2px solid black;
+  width: 45%;
+  padding: 5px;
+  position: relative;
+  float: left;
+  content: '';
+}
+#experience {
+  border: 2px solid black;
+  width: 45%;
+  padding: 5px;
+  margin-left: 5px;
+  float: right;
+  position: relative;
+  content: '';
+
+}
+#skills {
+  border: 2px solid black;
+  width: 45%;
+  padding: 5px;
+  margin-top: 20px;
+  float: left;
+  position: relative;
+  content: '';
+}
+/* Logo */
+h1 {
+    float: left;
+    font-size: 20px;
+    height: 40px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+/* Nav */
+.nav {
+    height: 40px;
+    padding: 0;
+    margin: 15px 0 0;
+    float: right;
+}
+    /* Nav item */
+    .nav__item {
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        margin-left: 10px;
+        display: inline-block;
+    }
+
+    .nav__item_used {
+      height: 40px;
+      line-height: 40px;
+      padding: 0;
+      margin-left: 10px;
+      display: inline-block;
+      color: black;
+
+    }
+    /* Nav item button */
+    .nav__item--btn {
+        display: inline-block;
+        padding: 0 10pxi;
+        font-size: 14px;
+        line-height: 38px;
+        padding: 0 20px;
+        width: auto;
+    }
+
+/* Container */
+main p, footer, nav, #mainresume {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+footer {
+  clear: both;
+  padding-top: 60px
+}
+footer p{
+    margin-top: 60px;
+    color: #888;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+}
+
+footer .top {
+    float: right;
+}
+
+#pdf {
+	width: 49.75%;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+	background: #FFF;
+}
+
+#pdf p {
+	padding: 1em;
+}
+
+#pdf object {
+	display: block;
+}

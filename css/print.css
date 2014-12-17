@@ -1,0 +1,22 @@
+nav {
+  display: none;
+}
+
+.prettytop {
+  display: none;
+}
+
+ul li {
+  font-size: 12pt;
+}
+
+  ul {
+    list-style-type: none;
+  }
+
+main {
+  width: 100%
+  border: none;
+  float: none;
+  position: absolute;
+}
